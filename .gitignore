@@ -19,7 +19,7 @@ nb*.xml
 .DS_Store
 
 # Maven
-target/
+#target/
 
 # JWrapper
 # Folders

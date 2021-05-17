@@ -20,7 +20,7 @@ I have tested this with v0.5 following these steps:
 
 1) Clone the MultiBit HD Git repository
 2) Apply the patch above (The current repo where you find this file has been pre-patched)
-3) Build the project (Skipping tests to speed things up): mvn clean dependency:sources install
+3) Build the project (Skipping tests to speed things up): mvn clean dependency:sources install -DskipTests
 4) Start the application: java -jar mbhd-swing/target/multibit-hd.jar
 5) Go to Tools -> Sign message and enter a Bitcoin address from your wallet for which you want to recover the private key. Press finish.
 6) Read the Bitcoin address and corresponding private key from the console output
